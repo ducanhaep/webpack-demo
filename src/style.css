@@ -1,0 +1,14 @@
+@font-face {
+  font-family: 'MyFont';
+  src: url('./Merriweather-Bold.ttf') format('ttf'),
+    url('./Merriweather-Light.ttf') format('ttf');
+  font-weight: bold;
+  font-style: normal;
+}
+
+.hello {
+  color: red;
+  font-family: 'MyFont';
+  font-weight: bold;
+  background: url('./anhmang.jpg');
+}
